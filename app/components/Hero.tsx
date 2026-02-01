@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section id="hero" className="flex flex-col items-center justify-center min-h-screen text-center bg-section">
+    <section id="hero" className="flex flex-col items-center justify-center min-h-screen px-4 text-center bg-gray-50">
       <h1 className="mb-4 text-4xl font-bold md:text-6xl">I help businesses build full-stack apps</h1>
       <p className="mb-6 text-lg md:text-2xl">Professional Next.js developer | Clean code | Scalable solutions</p>
       <div className="flex space-x-4">

@@ -17,7 +17,7 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="max-w-6xl px-4 py-20 mx-auto bg-section">
+    <section id="projects" className="max-w-6xl px-4 py-20 mx-auto">
       <h2 className="mb-12 text-3xl font-bold text-center">Projects</h2>
       <div className="grid gap-10 md:grid-cols-2">
         {projects.map(p => (

@@ -4,7 +4,7 @@ export default function Skills() {
   const tools = ["Git", "Vercel", "VS Code"];
 
   return (
-    <section id="skills" className="px-4 py-20 bg-section">
+    <section id="skills" className="px-4 py-20 bg-gray-50">
       <h2 className="mb-12 text-3xl font-bold text-center">Skills</h2>
       <div className="grid max-w-4xl gap-8 mx-auto text-center md:grid-cols-3">
         <div>

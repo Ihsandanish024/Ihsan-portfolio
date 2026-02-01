@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 
 export default function Home() {
   return (
-    <div className="space-y-32 bg-bg">
+    <div className="space-y-32 ">
       <Hero />
       <About /> 
       <Skills />

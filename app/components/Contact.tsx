@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section id="contact" className="max-w-4xl px-4 py-20 mx-auto text-center bg-section">
+    <section id="contact" className="max-w-4xl px-4 py-20 mx-auto text-center">
       <h2 className="mb-6 text-3xl font-bold">Contact Me</h2>
       <p className="mb-6">Reach me via WhatsApp or Email for your next project.</p>
       <div className="flex justify-center space-x-4">
