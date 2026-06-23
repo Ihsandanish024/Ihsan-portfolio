@@ -1,1 +1,10 @@
-@import "tailwindcss";
+@import "tailwindcss/preflight";
+@import "tailwindcss/index.css";
+
+html, body {
+	height: 100%;
+}
+
+body {
+	@apply antialiased text-gray-900 bg-white;
+}
