@@ -20,7 +20,7 @@ export default function Contact() {
             <HiMail className="w-5 h-5" />
             Email
           </a>
-          <a href="tel:03259024536" className="inline-flex items-center gap-2 px-6 py-3 text-white transition rounded-lg bg-slate-800 hover:bg-slate-900">
+          <a href="tel:03259024536" className="inline-flex items-center gap-2 px-6 py-3 text-white transition bg-blue-600 rounded-lg hover:bg-blue-700">
             <HiPhone className="w-5 h-5" />
             Call me
           </a>
