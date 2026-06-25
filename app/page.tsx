@@ -7,9 +7,9 @@ import Contact from './components/Contact';
 
 export default function Home() {
   return (
-    <div className="space-y-32 ">
+    <div className="space-y-24">
       <Hero />
-      <About /> 
+      <About />
       <Skills />
       <Projects />
       <WhyChooseMe />

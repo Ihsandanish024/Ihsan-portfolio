@@ -1,10 +1,19 @@
 @import "tailwindcss/preflight";
 @import "tailwindcss/index.css";
 
+html {
+	scroll-behavior: smooth;
+}
+
 html, body {
 	height: 100%;
 }
 
 body {
-	@apply antialiased text-gray-900 bg-white;
+	@apply antialiased text-slate-900 bg-slate-50;
 }
+
+::selection {
+	@apply bg-blue-200 text-slate-900;
+}
+
