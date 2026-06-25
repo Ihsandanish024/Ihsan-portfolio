@@ -22,7 +22,7 @@ const highlights = [
 
 export default function About() {
   return (
-    <section id="about" className="py-24 bg-white">
+    <section id="about" className="py-32 bg-white">
       <div className="max-w-6xl px-4 mx-auto">
         <h2 className="flex items-center gap-3 mb-8 text-3xl font-bold text-slate-900">
           <HiUserCircle className="w-8 h-8 text-blue-600" />

@@ -2,7 +2,7 @@ import { HiArrowRight, HiSparkles } from 'react-icons/hi';
 
 export default function Hero() {
   return (
-    <section id="hero" className="relative flex items-center justify-center min-h-[calc(100vh-5rem)] px-4 py-24 text-center bg-slate-950">
+    <section id="hero" className="relative flex items-center justify-center min-h-[calc(100vh-5rem)] px-4 py-32 text-center bg-slate-950">
       <div className="w-full max-w-4xl mx-auto">
         <div className="mb-8 flex items-center justify-center gap-3 text-sm uppercase tracking-[0.25em] text-sky-300">
           <HiSparkles className="w-5 h-5" />

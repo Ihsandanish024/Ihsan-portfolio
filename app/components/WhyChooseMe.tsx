@@ -9,7 +9,7 @@ export default function WhyChooseMe() {
   ];
 
   return (
-    <section id="why" className="bg-slate-50 py-24">
+    <section id="why" className="bg-slate-50 py-32">
       <div className="max-w-6xl px-4 mx-auto">
         <h2 className="mb-12 text-3xl font-bold text-center text-slate-900 inline-flex items-center justify-center gap-3">
           <HiSparkles className="w-6 h-6 text-blue-600" />

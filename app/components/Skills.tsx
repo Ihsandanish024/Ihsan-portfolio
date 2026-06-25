@@ -6,7 +6,7 @@ export default function Skills() {
   const tools = ['Git', 'Vercel', 'VS Code'];
 
   return (
-    <section id="skills" className="bg-slate-50 py-24">
+    <section id="skills" className="bg-slate-50 py-32">
       <div className="max-w-6xl px-4 mx-auto">
         <h2 className="mb-12 text-3xl font-bold text-center text-slate-900">Skills</h2>
         <div className="grid gap-8 md:grid-cols-3">

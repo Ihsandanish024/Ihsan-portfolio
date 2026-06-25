@@ -4,7 +4,7 @@
 import { HiChat ,HiMail,HiPhone} from 'react-icons/hi';
 export default function Contact() {
   return (
-    <section id="contact" className="py-24 bg-white">
+    <section id="contact" className="py-32 bg-white">
       <div className="max-w-4xl px-4 mx-auto text-center">
         <h2 className="inline-flex items-center justify-center gap-3 mb-6 text-3xl font-bold text-slate-900">
           <HiChat className="w-6 h-6 text-blue-600" />
