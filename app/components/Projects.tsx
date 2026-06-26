@@ -17,7 +17,7 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-32 bg-white">
+    <section id="projects" className="py-36 mb-24 bg-white">
       <div className="max-w-6xl px-4 mx-auto">
         <h2 className="inline-flex items-center justify-center gap-3 mb-12 text-3xl font-bold text-center text-slate-900">
           <HiFolderOpen className="w-6 h-6 text-blue-600" />
