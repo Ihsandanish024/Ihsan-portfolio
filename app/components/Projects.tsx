@@ -17,16 +17,16 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="bg-white py-32">
+    <section id="projects" className="py-32 bg-white">
       <div className="max-w-6xl px-4 mx-auto">
-        <h2 className="mb-12 text-3xl font-bold text-center text-slate-900 inline-flex items-center justify-center gap-3">
+        <h2 className="inline-flex items-center justify-center gap-3 mb-12 text-3xl font-bold text-center text-slate-900">
           <HiFolderOpen className="w-6 h-6 text-blue-600" />
           Projects
         </h2>
         <div className="grid gap-8 md:grid-cols-2">
           {projects.map((project) => (
-            <div key={project.title} className="p-8 bg-slate-50 border border-slate-200 rounded-3xl transition-shadow hover:shadow-xl">
-              <h3 className="mb-3 text-xl font-semibold flex items-center gap-2 text-slate-900">
+            <div key={project.title} className="p-8 transition-shadow border bg-slate-50 border-slate-200 rounded-3xl hover:shadow-xl">
+              <h3 className="flex items-center gap-2 mb-3 text-xl font-semibold text-slate-900">
                 <HiFolderOpen className="w-5 h-5 text-blue-600" />
                 {project.title}
               </h3>

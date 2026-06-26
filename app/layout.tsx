@@ -10,8 +10,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className="flex flex-col min-h-screen bg-slate-50 text-slate-900">
-        <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-slate-200 shadow-sm">
-          <div className="flex items-center justify-between px-4 py-4 mx-auto max-w-7xl">
+        <header className="sticky top-0 z-50 border-b shadow-sm bg-white/95 backdrop-blur-sm border-slate-200">
+          <div className="flex items-center justify-between px-4 py-4 sm:mx-auto max-w-7xl">
             <h1 className="flex items-center gap-2 text-xl font-bold text-slate-900">
               <HiOutlineClipboardList className="w-6 h-6 text-blue-600" />
               My Portfolio
