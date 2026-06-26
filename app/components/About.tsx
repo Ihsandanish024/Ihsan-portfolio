@@ -22,14 +22,14 @@ const highlights = [
 
 export default function About() {
   return (
-    <section id="about" className="py-36 mb-24 bg-white">
+    <section id="about" className="mb-24 bg-white py-36">
       <div className="max-w-6xl px-4 mx-auto">
-        <h2 className="flex items-center gap-3 mb-8 text-3xl font-bold text-slate-900">
+        <h2 className="flex items-center gap-3 mb-8 text-4xl font-extrabold tracking-tight text-slate-900">
           <HiUserCircle className="w-8 h-8 text-blue-600" />
           About Me
         </h2>
         <div className="flex flex-col items-start gap-10 md:flex-row md:items-start">
-          <div className="relative w-full max-w-md h-56 overflow-hidden rounded-[2rem] bg-slate-100 shadow-sm md:w-1/2 md:flex-shrink-0">
+          <div className="relative w-full max-w-md h-110 overflow-hidden rounded-[2rem] bg-slate-100 shadow-sm md:w-1/2 md:flex-shrink-0">
             <Image
               src={profilePic}
               alt="Profile picture"

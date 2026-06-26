@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <section id="skills" className="bg-slate-50 py-36 mb-24">
       <div className="max-w-6xl px-4 mx-auto">
-        <h2 className="mb-12 text-3xl font-bold text-center text-slate-900">Skills</h2>
+        <h2 className="mb-14 text-4xl font-extrabold tracking-tight text-center text-slate-900">Skills</h2>
         <div className="grid gap-8 md:grid-cols-3">
           <div className="p-8 bg-white border border-slate-200 rounded-3xl shadow-sm">
             <h3 className="inline-flex items-center justify-center gap-2 mb-4 text-lg font-semibold text-slate-900">

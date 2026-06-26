@@ -1,5 +1,6 @@
-@import "tailwindcss/preflight";
-@import "tailwindcss/index.css";
+/* @import "tailwindcss/preflight"; */
+/* @import "tailwindcss/index.css"; */
+@import "tailwindcss";
 
 html {
 	scroll-behavior: smooth;

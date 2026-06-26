@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <section id="contact" className="py-36 mb-24 bg-white">
       <div className="max-w-4xl px-4 mx-auto text-center">
-        <h2 className="inline-flex items-center justify-center gap-3 mb-6 text-3xl font-bold text-slate-900">
+        <h2 className="inline-flex items-center justify-center gap-3 mb-6 text-4xl font-extrabold tracking-tight text-slate-900">
           <HiChat className="w-6 h-6 text-blue-600" />
           Contact Me
         </h2>
