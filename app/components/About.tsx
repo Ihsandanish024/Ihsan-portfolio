@@ -29,7 +29,7 @@ export default function About() {
           About Me
         </h2>
         <div className="flex flex-col items-start gap-10 md:flex-row md:items-start">
-          <div className="relative w-full max-w-md h-150 overflow-hidden rounded-[2rem] bg-slate-100 shadow-sm md:w-1/2 md:flex-shrink-0">
+          <div className="relative w-full max-w-md h-145 overflow-hidden rounded-[2rem] bg-slate-100 shadow-sm md:w-1/2 md:flex-shrink-0">
             <Image
               src={profilePic}
               alt="Profile picture"
